@@ -65,7 +65,7 @@ function layout({ title = '비상교육 공지사항', body = '' }) {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>${escapeHTML(title)}</title>
     <style>
-      :root { --bg:#eef2f7; --card:#ffffff; --ink:#0f172a; --muted:#475569; --accent:#2563eb; }
+      :root { --bg:#f0fdf4; --card:#ffffff; --ink:#064e3b; --muted:#4b5563; --accent:#10b981; }
       *{ box-sizing:border-box; }
       body{ margin:0; background:var(--bg); color:var(--ink); font-family:'Noto Sans KR', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto; }
       a{ color:var(--accent); text-decoration:none; }
@@ -79,8 +79,8 @@ function layout({ title = '비상교육 공지사항', body = '' }) {
       textarea{ min-height:160px; line-height:1.5; }
       .btn{ display:inline-block; padding:10px 16px; border-radius:12px; border:1px solid #94a3b8; background:#e2e8f0; color:#0f172a; cursor:pointer; font-size:14px; transition:all 0.2s; white-space:nowrap; }
       .btn:hover{ background:#cbd5e1; }
-      .btn.primary{ background:var(--accent); border-color:#1e40af; color:#fff; box-shadow:0 2px 6px rgba(37,99,235,0.35); }
-      .btn.primary:hover{ background:#1d4ed8; }
+      .btn.primary{ background:var(--accent); border-color:#047857; color:#fff; box-shadow:0 2px 6px rgba(16,185,129,0.35); }
+      .btn.primary:hover{ background:#059669; }
       .btn.danger{ background:#dc2626; border-color:#991b1b; color:#fff; box-shadow:0 2px 6px rgba(220,38,38,0.35); }
       .btn.danger:hover{ background:#b91c1c; }
       .toolbar{ display:flex; gap:8px; flex-wrap:wrap; }
